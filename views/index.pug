@@ -1,0 +1,12 @@
+doctype html
+html
+  head
+    title Socket.IO chat
+    link(rel='stylesheet' type='text/css' href='/stylesheets/style.css')
+  body
+    ul#messages
+    form#form(action='')
+      input#input(autocomplete='off' autofocus)
+      button Send
+    script(src='/socket.io/socket.io.js')
+    script(src='javascripts/index.js')
